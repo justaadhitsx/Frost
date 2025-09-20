@@ -46,33 +46,7 @@ const Chip: React.FC<{ name: string; avatar: string; index: number }> = ({
   );
 };
 
-const props = [
-  {
-    name: "Patrick",
-    avatar:
-      "https://i.pinimg.com/1200x/8f/55/1c/8f551ce60ff80185c73cfde2edd3e4a1.jpg",
-  },
-  {
-    name: "Sonny",
-    avatar:
-      "https://i.pinimg.com/736x/cf/8b/e9/cf8be98e83df1f26ebbcea99b8194eba.jpg",
-  },
-  {
-    name: "Lucy",
-    avatar:
-      "https://i.pinimg.com/736x/27/79/81/27798111120e77b88c18158b552aa060.jpg",
-  },
-];
-
-const MotionChips: React.FC = () => {
-  return (
-    <div className="flex items-center justify-center w-auto h-[60px]">
-      {props.map((item, index) => (
-        <Chip key={index} name={item.name} avatar={item.avatar} index={index} />
-      ))}
-    </div>
-  );
-};
+remainings ...
 
 export default MotionChips;`;
 
