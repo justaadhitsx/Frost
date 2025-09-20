@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, JetBrains_Mono, Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -45,6 +46,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${jetBrainsMono.variable} ${poppins.variable} ${neueMontreal.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
