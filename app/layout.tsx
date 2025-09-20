@@ -30,7 +30,7 @@ const neueMontreal = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Frost Labs",
+  title: "Frost Labs - Where code feels like magic ⛄.",
   description: "Where code feels like magic ⛄.",
 };
 
